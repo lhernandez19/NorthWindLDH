@@ -1,0 +1,23 @@
+@using Northwind.Models
+@model IEnumerable<Product>
+
+@* <ul>
+@foreach (Product product in Model)
+{
+    <li>@product.ProductName - @product.UnitPrice</li>
+}
+</ul> *@
+@foreach (Product product in Model)
+{
+    <div class="row justify-content-md-center">
+        <a class=" col-3 list-group-item list-group-item-secondary">
+        @product.ProductName
+        </a>
+        <a class=" col-3 list-group-item list-group-item-secondary">
+        @product.UnitPrice
+        </a>
+        <a class="col-3 list-group-item list-group-item-secondary">
+        @product.UnitsInStock
+        </a>
+    </div>
+  }
