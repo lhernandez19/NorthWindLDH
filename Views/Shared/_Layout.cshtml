@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -18,7 +17,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-info border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark border-bottom box-shadow p-3 mb-2 bg-info text-white">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><i class="far fa-compass"></i> Northwind</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -32,20 +31,23 @@
                                 <i class="fas fa-database"></i> Products
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                
                                 <a class="dropdown-item" asp-controller="Product" asp-action="Category"><i class="fas fa-list-ul"></i> Browse Categories</a>
+                                
                                 <a class="dropdown-item" href="#"><i class="fas fa-search"></i> Product Search</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#"><i class="fas fa-tag"></i> Current Discounts</a>
+                                
+                                <a class="dropdown-item" asp-controller="Product" asp-action="Discount"  class="dropdown-item"><i class="fas fa-tag"></i> Current Discounts</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fas fa-users"></i> Customers</a>
+                            <a class="nav-link" asp-controller="Customer" asp-action="Register"><i class="fas fa-users"></i> Customers</a>
                         </li>
                     </ul>
                 </div>
                 <form class="form-inline my-2 my-lg-0 d-none d-md-inline">
                     <input class="form-control mr-sm-2" type="search" placeholder="Product Search" aria-label="Search">
-                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i><span class="sr-only">Search</span></button>
+                    <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i><span class="sr-only">Search</span></button>
                 </form>
             </div>
         </nav>
@@ -56,9 +58,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted fixed-bottom p-3 mb-2 bg-light text-dark">
         <div class="container text-center">
-            &copy; 2021 - Northwind
+            Luis Diego Hernandez - WCTC - &copy;  2021 - Northwind
         </div>
     </footer>
     <!-- jQuery -->

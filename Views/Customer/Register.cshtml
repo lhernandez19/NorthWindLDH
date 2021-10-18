@@ -1,0 +1,55 @@
+@model Northwind.Models.Customer
+@using Northwind.Models
+
+
+<form method="post">
+  <div class="container py-3 my-3 shadow rounded ">
+    <h2 class="pt-3 m-1">Register Customer</h2>
+    <div class="dropdown-divider pb-4"></div>
+
+    <div asp-validation-summary="All" class="form-row">
+      <div class="col-md-6 mb-3">
+        <label asp-for="@Model.CompanyName">Company Name</label>
+        <input asp-for="@Model.CompanyName" type="text" class="form-control">
+      </div>
+      <div class="col-md-6 mb-3">
+        <label asp-for="@Model.Address">Address</label>
+        <input asp-for="@Model.Address" type="text" class="form-control">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label asp-for="@Model.City">City</label>
+        <input asp-for="@Model.City" type="text" class="form-control">
+      </div>
+      <div class="col-md-3 mb-3">
+        <label asp-for="@Model.Region">State</label>
+       <input asp-for="@Model.Region" type="text" class="form-control">
+      </div>
+      <div class="col-md-3 mb-3">
+        <label asp-for="@Model.PostalCode">Postal Code</label>
+        <input asp-for="@Model.PostalCode" type="text" class="form-control">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label asp-for="@Model.Country">Country</label>
+        <input asp-for="@Model.Country" type="text" class="form-control">
+      </div>
+      <div class="col-md-3 mb-3">
+        <label asp-for="@Model.Phone">Phone</label>
+        <input asp-for="@Model.Phone" type="text" class="form-control">
+      </div>
+      <div class="col-md-3 mb-3">
+        <label asp-for="@Model.Fax">Email</label>
+        <input asp-for="@Model.Fax" type="text" class="form-control">
+      </div>
+      <button class="submit btn btn-success" type="submit"><i class="fas fa-user"></i> Create User</button>
+      </div>
+      </div>
+  </div>
+
+</form>
+
+
+

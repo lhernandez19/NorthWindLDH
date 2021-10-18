@@ -2,14 +2,19 @@
 @model IEnumerable<Category>
 
 
-@foreach (Category category in Model)
-{
-<div class="list-group justify-content-md-center">
-  <a asp-controller="Product" asp-action="Index" asp-route-id="@category.CategoryId" class=" col-md-6 list-group-item list-group-item-secondary ">
-     @category.CategoryName - 
-        @category.Description
-  </a>
+
+<div class="container shadow rounded bg-light p-4 my-4">
+  <h2 class="p-1 m-1">Product Category</h2>
+  <div class="dropdown-divider pb-4"></div>
+
+  @foreach (Category category in Model)
+  {
+    
+  <div class="list-group">
+    <a asp-controller="Product" asp-action="Index" asp-route-id="@category.CategoryId" class="col-md-4 list-group-item list-group-item-primary">
+      @category.CategoryName &#8212
+          @category.Description
+    </a>
+  </div>
+  }
 </div>
-
-
-}

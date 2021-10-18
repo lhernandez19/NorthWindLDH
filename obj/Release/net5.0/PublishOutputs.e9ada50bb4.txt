@@ -1,3 +1,5 @@
+/Users/luisdiego/Documents/WCTC/2nd year/NetWebDevelopment/Assign04EFCore/NorthWind/bin/Release/net5.0/publish/wwwroot/js/client.js
+/Users/luisdiego/Documents/WCTC/2nd year/NetWebDevelopment/Assign04EFCore/NorthWind/bin/Release/net5.0/publish/wwwroot/toast.wav
 /Users/luisdiego/Documents/WCTC/2nd year/NetWebDevelopment/Assign04EFCore/NorthWind/bin/Release/net5.0/publish/appsettings.Development.json
 /Users/luisdiego/Documents/WCTC/2nd year/NetWebDevelopment/Assign04EFCore/NorthWind/bin/Release/net5.0/publish/appsettings.json
 /Users/luisdiego/Documents/WCTC/2nd year/NetWebDevelopment/Assign04EFCore/NorthWind/bin/Release/net5.0/publish/NorthWind.dll

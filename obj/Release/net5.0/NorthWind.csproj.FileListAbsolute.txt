@@ -68,3 +68,5 @@
 /Users/luisdiego/Documents/WCTC/2nd year/NetWebDevelopment/Assign04EFCore/NorthWind/obj/Release/net5.0/NorthWind.genruntimeconfig.cache
 /Users/luisdiego/Documents/WCTC/2nd year/NetWebDevelopment/Assign04EFCore/NorthWind/obj/Release/net5.0/Razor/Views/Product/Category.cshtml.g.cs
 /Users/luisdiego/Documents/WCTC/2nd year/NetWebDevelopment/Assign04EFCore/NorthWind/obj/Release/net5.0/Razor/Views/Product/index.cshtml.g.cs
+/Users/luisdiego/Documents/WCTC/2nd year/NetWebDevelopment/Assign04EFCore/NorthWind/obj/Release/net5.0/Razor/Views/Customer/Register.cshtml.g.cs
+/Users/luisdiego/Documents/WCTC/2nd year/NetWebDevelopment/Assign04EFCore/NorthWind/obj/Release/net5.0/Razor/Views/Product/Discount.cshtml.g.cs

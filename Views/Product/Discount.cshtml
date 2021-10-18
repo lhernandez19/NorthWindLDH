@@ -1,0 +1,18 @@
+@using Northwind.Models
+@model IEnumerable<Discount>
+
+<div class="container shadow rounded bg-light p-4 my-4">
+  <h2 class="p-1 m-1">Product Discount</h2>
+  <div class="dropdown-divider pb-4"></div>
+
+
+@foreach (Discount discount in Model)
+{
+  <div class="list-group">
+      <a asp-controller="Product" asp-action="Discount" asp-route-id="@discount.DiscountId" class="col-md-10 list-group-item list-group-item-primary">
+      @discount.Title &#8212
+        @discount.Description
+        </a>
+  </div>
+  }
+</div>  
